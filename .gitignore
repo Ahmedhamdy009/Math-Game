@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# Executables and intermediate files
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.cache
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
