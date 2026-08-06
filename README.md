@@ -2,41 +2,20 @@
 
 A console-based Math Game developed in C++.
 
-This repository contains two implementations of the game:
+## 📌 Overview
 
-- **Version 1**: Initial implementation
-- **Version 2**: Refactored implementation
-
-## 📂 Project Structure
-
-```text
-Math-Game
-│
-├── Version-1
-│   └── Math_Game.cpp
-│
-├── Version-2-Refactored
-│   └── Math_Game_Refactored.cpp
-│
-├── Screenshots
-│
-├── main.cpp
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+This project generates random math questions based on the selected difficulty level and operation type. The player answers each question, and the game shows the final result at the end.
 
 ## 🚀 Features
 
-- Play multiple rounds
+- Play multiple questions in one round
 - Random question generation
 - Different difficulty levels
 - Different operation types
-- Winner detection
 - Colored console output
 - Final game statistics
-- Play Again option
-- Clean and organized code
+- Play again option
+- Clean and organized code using `struct`, `enum`, and functions
 
 ## 🛠 Concepts Used
 
@@ -46,28 +25,45 @@ Math-Game
 - Arrays
 - Random Number Generation
 - Switch Statements
-- Clean Code
 - Console Programming
 
-## 📁 Versions
+## 📂 Project Structure
 
-### Version 1
-Initial implementation using:
-- Functions
-- Structs
-- Enums
-- Random Numbers
+```text
+Math-Game
+│
+├── main.cpp
+├── README.md
+├── LICENSE
+└── Screenshots
+    ├── Game-Start.png
+    ├── Correct-Answer.png
+    ├── Wrong-Answer.png
+    ├── Final-Result-Pass.png
+    └── Final-Result-Fail.png
+```
 
-### Version 2 (Refactored)
-Improved project structure and better code quality.
+## 📸 Screenshots
 
-**Improvements:**
-- Better function organization
-- Cleaner code
-- Easier maintenance
-- Better readability
-- Bug fixes
-- Improved division question generation
+### Game Start
+
+![Game Start](Screenshots/Game-Start.png)
+
+### Correct Answer
+
+![Correct Answer](Screenshots/Correct-Answer.png)
+
+### Wrong Answer
+
+![Wrong Answer](Screenshots/Wrong-Answer.png)
+
+### Final Result - Pass
+
+![Final Result Pass](Screenshots/Final-Result-Pass.png)
+
+### Final Result - Fail
+
+![Final Result Fail](Screenshots/Final-Result-Fail.png)
 
 ## 💻 Language
 
