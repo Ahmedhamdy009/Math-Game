@@ -4,18 +4,19 @@ A console-based Math Game implemented in C++.
 
 ## Overview
 
-The game generates random math questions based on the selected question level and operation type, checks the player's answers, and shows the final result at the end.
+Math Game generates random arithmetic questions based on the selected difficulty level and operation type. The player answers each question, receives immediate feedback, and gets a final result summary at the end of the round.
 
 ## Features
 
 - Multiple questions in one round
 - Random question generation
-- Different question levels
-- Different operation types
-- Colored console output
+- Easy, Medium, Hard, and Mixed difficulty levels
+- Addition, Subtraction, Multiplication, Division, and Mixed operations
+- Exact integer division questions
+- Colored console feedback for correct and wrong answers
 - Final game statistics
 - Play again option
-- Clean and organized code using `struct`, `enum`, arrays, and functions
+- Organized code using `struct`, `enum`, arrays, loops, and functions
 
 ## Concepts Used
 
@@ -27,7 +28,9 @@ The game generates random math questions based on the selected question level an
 - Random Number Generation
 - Switch Statements
 - Pass by Reference
+- Conditional Operator
 - Console Programming
+- Basic Problem Solving
 
 ## Project Structure
 
@@ -45,6 +48,32 @@ Math-Game
     ├── Final Result - Pass.png
     └── Final Result - Fail.png
 ```
+
+## How to Run
+
+### Using a C++ Compiler
+
+Compile the source file with a C++ compiler such as GCC/MinGW:
+
+```bash
+g++ Math-Game.cpp -o Math-Game
+```
+
+Then run:
+
+```bash
+./Math-Game
+```
+
+### Windows
+
+If you are using Windows with MinGW, the generated executable can be started with:
+
+```bash
+Math-Game.exe
+```
+
+> The colored console output uses Windows `color` and `cls` commands, so the visual experience is designed primarily for Windows terminals.
 
 ## Screenshots
 
@@ -70,8 +99,12 @@ Math-Game
 
 ## Language
 
-C++
+**C++**
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Author
 
-Ahmed Hamdy
+**Ahmed Hamdy**
