@@ -49,7 +49,7 @@ Math-Game
 
 ### Game Start
 
-![Game Start](Screenshots/Game Start.png)
+![Game Start](Screenshots/Game%20Start.png)
 
 ### Correct Answer
 
