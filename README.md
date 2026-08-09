@@ -1,33 +1,35 @@
-# 🎮 Math Game (C++)
+# 🧮 Math Game
 
-A console-based Math Game developed in C++.
+A console-based Math Game implemented in C++.
 
-## 📌 Overview
+## Overview
 
-This project generates random math questions based on the selected difficulty level and operation type. The player answers each question, and the game shows the final result at the end.
+The game generates random math questions based on the selected question level and operation type, checks the player's answers, and shows the final result at the end.
 
-## 🚀 Features
+## Features
 
-- Play multiple questions in one round
+- Multiple questions in one round
 - Random question generation
-- Different difficulty levels
+- Different question levels
 - Different operation types
 - Colored console output
 - Final game statistics
 - Play again option
-- Clean and organized code using `struct`, `enum`, and functions
+- Clean and organized code using `struct`, `enum`, arrays, and functions
 
-## 🛠 Concepts Used
+## Concepts Used
 
 - Functions
 - Structs
 - Enums
 - Arrays
+- Loops
 - Random Number Generation
 - Switch Statements
+- Pass by Reference
 - Console Programming
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Math-Game
@@ -43,7 +45,7 @@ Math-Game
     └── Final-Result-Fail.png
 ```
 
-## 📸 Screenshots
+## Screenshots
 
 ### Game Start
 
@@ -65,10 +67,10 @@ Math-Game
 
 ![Final Result Fail](Screenshots/Final-Result-Fail.png)
 
-## 💻 Language
+## Language
 
 C++
 
-## 👨‍💻 Author
+## Author
 
 Ahmed Hamdy
