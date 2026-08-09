@@ -34,11 +34,12 @@ The game generates random math questions based on the selected question level an
 ```text
 Math-Game
 │
-├── main.cpp
+├── Math-Game.cpp
 ├── README.md
 ├── LICENSE
+├── .gitignore
 └── Screenshots
-    ├── Game-Start.png
+    ├── Game Start.png
     ├── Correct Answer.png
     ├── Wrong Answer.png
     ├── Final Result - Pass.png
