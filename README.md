@@ -39,10 +39,10 @@ Math-Game
 ├── LICENSE
 └── Screenshots
     ├── Game-Start.png
-    ├── Correct-Answer.png
-    ├── Wrong-Answer.png
-    ├── Final-Result-Pass.png
-    └── Final-Result-Fail.png
+    ├── Correct Answer.png
+    ├── Wrong Answer.png
+    ├── Final Result - Pass.png
+    └── Final Result - Fail.png
 ```
 
 ## Screenshots
@@ -53,19 +53,19 @@ Math-Game
 
 ### Correct Answer
 
-![Correct Answer](Screenshots/Correct-Answer.png)
+![Correct Answer](Screenshots/Correct%20Answer.png)
 
 ### Wrong Answer
 
-![Wrong Answer](Screenshots/Wrong-Answer.png)
+![Wrong Answer](Screenshots/Wrong%20Answer.png)
 
 ### Final Result - Pass
 
-![Final Result Pass](Screenshots/Final-Result-Pass.png)
+![Final Result Pass](Screenshots/Final%20Result%20-%20Pass.png)
 
 ### Final Result - Fail
 
-![Final Result Fail](Screenshots/Final-Result-Fail.png)
+![Final Result Fail](Screenshots/Final%20Result%20-%20Fail.png)
 
 ## Language
 
